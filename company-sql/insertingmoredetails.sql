@@ -1,0 +1,7 @@
+USE company;
+INSERT INTO Empl (empno, ename, job, mgr, hiredate, sal, comm, deptno) VALUES 
+(8698, 'BINA', 'MANAGER', 8839, '1991-05-01', 2850, NULL, 30),
+(8882, 'SHIVANSH', 'MANAGER', 8839, '1991-06-09', 2450, NULL, 10),
+(8888, 'SCOTT', 'ANALYST', 8566, '1992-12-09', 3000, NULL, 20),
+(8839, 'AMIR', 'PRESIDENT', NULL, '1991-11-18', 5000, NULL, 10),
+(8844, 'KULDEEP', 'SALESMAN', 8696, '1991-09-08', 1500, 0, 30);
